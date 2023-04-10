@@ -20,9 +20,6 @@ df = pd.DataFrame(lap)
 draft_template = go.layout.Template()
 draft_template.layout.annotations = [
     dict(
-        name="draft watermark",
-        text="Ritwik",
-        textangle=-30,
         opacity=0.1,
         font=dict(color="red", size=100),
         xref="paper",
