@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import app
-df=pd.read_csv('open_pubs.csv')
+df=pd.read_csv('../open_pubs.csv')
 st.set_page_config(page_title="Pub Locations")
 opt=st.selectbox('',('Local Authority','Postal Code'))
 if opt=='Local Authority':
