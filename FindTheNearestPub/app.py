@@ -11,8 +11,7 @@ df=pd.read_csv(DATA_PATH)
 
 st.set_page_config(page_title="Home")
 
-st.sidebar.success("navigate pages ^ ")
-st.title("Open Pubs near me")
+st.title("Open Nearest Pub")
 st.subheader('Dataset')
 st.dataframe(df)
 
