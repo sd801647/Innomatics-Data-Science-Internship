@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import pydeck as pdk
 import app
-df=pd.read_csv('open_pubs.csv')
+df=pd.read_csv('../open_pubs.csv')
 st.set_page_config(page_title="Nearest Pubs")
 
 lat=st.number_input('latitude')
